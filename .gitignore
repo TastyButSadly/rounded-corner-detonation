@@ -1,0 +1,17 @@
+/build/
+cmake-build-*/
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+.mplcache/
+
+# Generated solver outputs can be very large.
+output/
+results/
+tests/mader_2de/output*/
+tests/mader_2de/*_run.log
+
+# Generated reports and figures.
+tests/mader_2de/report/
